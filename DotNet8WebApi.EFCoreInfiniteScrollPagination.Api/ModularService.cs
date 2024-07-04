@@ -1,6 +1,5 @@
 ﻿using DotNet8WebApi.EFCoreInfiniteScrollPagination.Api.Features.Blog;
 using DotNet8WebApi.EFCoreInfiniteScrollPagination.DbService.AppDbContexts;
-using DotNet8WebApi.EFCoreInfiniteScrollPagination.Repositories.Features.Blog;
 using Microsoft.EntityFrameworkCore;
 
 namespace DotNet8WebApi.EFCoreInfiniteScrollPagination.Api

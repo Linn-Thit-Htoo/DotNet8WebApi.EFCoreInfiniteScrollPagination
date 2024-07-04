@@ -1,9 +1,4 @@
-﻿using DotNet8WebApi.EFCoreInfiniteScrollPagination.Models.Features;
-using DotNet8WebApi.EFCoreInfiniteScrollPagination.Models.Features.Blog;
-using DotNet8WebApi.EFCoreInfiniteScrollPagination.Models.Resources;
-using DotNet8WebApi.EFCoreInfiniteScrollPagination.Repositories.Features.Blog;
-
-namespace DotNet8WebApi.EFCoreInfiniteScrollPagination.Api.Features.Blog;
+﻿namespace DotNet8WebApi.EFCoreInfiniteScrollPagination.Api.Features.Blog;
 
 public class BL_Blog
 {
