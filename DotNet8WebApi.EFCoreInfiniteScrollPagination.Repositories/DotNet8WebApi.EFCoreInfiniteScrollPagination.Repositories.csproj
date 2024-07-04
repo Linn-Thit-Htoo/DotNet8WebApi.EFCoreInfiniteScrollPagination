@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DotNet8WebApi.EFCoreInfiniteScrollPagination.DbService\DotNet8WebApi.EFCoreInfiniteScrollPagination.DbService.csproj" />
+    <ProjectReference Include="..\DotNet8WebApi.EFCoreInfiniteScrollPagination.Mapper\DotNet8WebApi.EFCoreInfiniteScrollPagination.Mapper.csproj" />
+    <ProjectReference Include="..\DotNet8WebApi.EFCoreInfiniteScrollPagination.Models\DotNet8WebApi.EFCoreInfiniteScrollPagination.Models.csproj" />
+    <ProjectReference Include="..\DotNet8WebApi.EFCoreInfiniteScrollPagination.Shared\DotNet8WebApi.EFCoreInfiniteScrollPagination.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
