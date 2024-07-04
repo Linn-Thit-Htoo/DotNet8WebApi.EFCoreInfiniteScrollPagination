@@ -14,10 +14,11 @@ public class BlogRepository : IBlogRepository
         Result<BlogListResponseModel> responseModel;
         try
         {
-            var lst = await _appDbContext
+            var query = _appDbContext
                 .TblBlogs.Where(x => x.BlogId > id)
-                .Take(pageSize)
-                .ToListAsync();
+                .OrderByDescending(x => x.BlogId);
+
+            var lst = await query.Take(pageSize).ToListAsync();
 
             var model = new BlogListResponseModel(lst.Select(x => x.Map()).ToList());
 
