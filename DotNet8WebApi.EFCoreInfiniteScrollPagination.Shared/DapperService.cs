@@ -1,9 +1,4 @@
-﻿using Dapper;
-using Microsoft.Extensions.Configuration;
-using System.Data;
-using System.Data.SqlClient;
-
-namespace DotNet8WebApi.EFCoreInfiniteScrollPagination.Shared;
+﻿namespace DotNet8WebApi.EFCoreInfiniteScrollPagination.Shared;
 
 public class DapperService
 {
