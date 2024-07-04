@@ -8,7 +8,6 @@ public static class ModularService
     )
     {
         services.AddDbContextService(builder).AddBusinessLogicService().AddRepositoryService();
-
         return services;
     }
 
