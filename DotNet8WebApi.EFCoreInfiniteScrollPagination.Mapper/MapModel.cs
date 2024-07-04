@@ -1,24 +1,18 @@
 ﻿using DotNet8WebApi.EFCoreInfiniteScrollPagination.DbService.AppDbContexts;
 using DotNet8WebApi.EFCoreInfiniteScrollPagination.Models.Features.Blog;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace DotNet8WebApi.EFCoreInfiniteScrollPagination.Mapper
+namespace DotNet8WebApi.EFCoreInfiniteScrollPagination.Mapper;
+
+public static class MapModel
 {
-    public static class MapModel
+    public static BlogModel Map(this TblBlog dataModel)
     {
-        public static BlogModel Map(this TblBlog dataModel)
+        return new BlogModel
         {
-            return new BlogModel
-            {
-                BlogId = dataModel.BlogId,
-                BlogTitle = dataModel.BlogTitle,
-                BlogAuthor = dataModel.BlogAuthor,
-                BlogContent = dataModel.BlogContent
-            };
-        }
+            BlogId = dataModel.BlogId,
+            BlogTitle = dataModel.BlogTitle,
+            BlogAuthor = dataModel.BlogAuthor,
+            BlogContent = dataModel.BlogContent
+        };
     }
 }
