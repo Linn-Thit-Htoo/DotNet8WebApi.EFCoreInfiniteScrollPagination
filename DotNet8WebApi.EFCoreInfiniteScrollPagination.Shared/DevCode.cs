@@ -1,12 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace DotNet8WebApi.EFCoreInfiniteScrollPagination.Shared;
 
-namespace DotNet8WebApi.EFCoreInfiniteScrollPagination.Shared
+public class DevCode
 {
-    public class DevCode
-    {
-    }
 }
