@@ -1,10 +1,4 @@
-﻿using DotNet8WebApi.EFCoreInfiniteScrollPagination.DbService.AppDbContexts;
-using DotNet8WebApi.EFCoreInfiniteScrollPagination.Mapper;
-using DotNet8WebApi.EFCoreInfiniteScrollPagination.Models.Features;
-using DotNet8WebApi.EFCoreInfiniteScrollPagination.Models.Features.Blog;
-using Microsoft.EntityFrameworkCore;
-
-namespace DotNet8WebApi.EFCoreInfiniteScrollPagination.Repositories.Features.Blog;
+﻿namespace DotNet8WebApi.EFCoreInfiniteScrollPagination.Repositories.Features.Blog;
 
 public class BlogRepository : IBlogRepository
 {
