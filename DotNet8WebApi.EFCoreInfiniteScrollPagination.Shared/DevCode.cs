@@ -1,5 +1,3 @@
 ﻿namespace DotNet8WebApi.EFCoreInfiniteScrollPagination.Shared;
 
-public class DevCode
-{
-}
+public class DevCode { }
