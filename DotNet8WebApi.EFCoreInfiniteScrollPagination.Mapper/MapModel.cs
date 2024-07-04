@@ -1,7 +1,4 @@
-﻿using DotNet8WebApi.EFCoreInfiniteScrollPagination.DbService.AppDbContexts;
-using DotNet8WebApi.EFCoreInfiniteScrollPagination.Models.Features.Blog;
-
-namespace DotNet8WebApi.EFCoreInfiniteScrollPagination.Mapper;
+﻿namespace DotNet8WebApi.EFCoreInfiniteScrollPagination.Mapper;
 
 public static class MapModel
 {
